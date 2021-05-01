@@ -57,6 +57,15 @@ div.feature{
         top:47%;
     }
 
+    .disclaimer{
+        font-size: 6vw;
+    }
+
+    div.feature{
+        top:83%;
+        font-size: 7vw;
+    }
+
     body{
         text-align: center;
     }
