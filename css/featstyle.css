@@ -17,7 +17,7 @@ body{
     font-family: Lato;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
@@ -39,12 +39,25 @@ div.feature{
     font-family: Lato;
     text-align: center;
     position: absolute;
-    top: 75%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
     color: rgb(255, 255, 255);
 }
+
+.btnBack {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    }
+    
+    .btnBack {color: rgb(255, 255, 255);}
+    
+    .btnBack {background: rgb(55, 78, 82);}
 
 @media screen and (max-width: 800px){
     .HeadingMain{
@@ -54,7 +67,7 @@ div.feature{
     
     .ItalicUnder{
         font-size:5vw;
-        top:47%;
+        top:42%;
     }
 
     .disclaimer{
@@ -62,8 +75,8 @@ div.feature{
     }
 
     div.feature{
-        top:83%;
-        font-size: 7vw;
+        top:60%;
+        font-size: 4vw;
     }
 
     body{
