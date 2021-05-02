@@ -37,14 +37,19 @@ client.on('message', message =>{
 	else if(command === 'help'){	
 				const helpEmbed = new Discord.MessageEmbed()
 		.setColor('#1A3668')
-		.setTitle('Help Commands')
+		.setAuthor('Zoofy#9724', 'https://blog.zoofy.cc/images/discordpfp.png', 'https://discord.zoofy.cc')
+		.setTitle('Zoofy Bot Commands')
 		.setURL('https://discord.zoofy.cc')
 		.setDescription('Note: All the commands below must be preceded with "!"')
 		.addFields(
 			{name: '1st command:', value: 'ping'},
+			
 			{name: '2nd command:', value: 'help'},
+			
 			{name: '3rd command:', value: 'website'}
 		)
+		.setTimestamp()
+		.setFooter('bot made by zoofy');
 		
 		message.channel.send(helpEmbed);
 	}
@@ -52,4 +57,4 @@ client.on('message', message =>{
 });
 
 // token
-client.login('');
+client.login('ODM4MDAyMjUxMDg2NjkyMzgy.YI0waQ.1Jxms7aUTxrRmKzhaMM9j1xgrQQ');
